@@ -1,0 +1,501 @@
+customer_id,recency,frequency,monetary,R_score,F_score,M_score,RFM_total,rfm_segment,kmeans_cluster,cluster_label
+1,2,31,104152.38,5,5,5,15,Champion,1,High-Value
+2,8,2,278.91999999999996,2,1,1,4,Lost,0,Dormant
+3,7,4,2263.95,2,1,2,5,Lost,0,Dormant
+4,6,7,4321.01,2,2,2,6,At Risk,0,Dormant
+5,112,4,1861.06,1,1,2,4,Lost,0,Dormant
+6,2,30,166572.71,5,5,5,15,Champion,1,High-Value
+7,6,6,6948.8,2,2,3,7,At Risk,0,Dormant
+8,2,9,5266.54,5,2,2,9,Potential,0,Dormant
+9,2,24,53485.65,5,5,4,14,Champion,0,Dormant
+10,2,13,35852.18,5,3,4,12,Loyal,0,Dormant
+11,2,17,43880.89,5,4,4,13,Champion,0,Dormant
+12,3,14,32782.78,3,3,4,10,Potential,0,Dormant
+13,2,11,11661.02,5,3,3,11,Loyal,0,Dormant
+14,2,21,21811.84,5,4,3,12,Loyal,0,Dormant
+15,2,23,31062.26,5,4,4,13,Champion,0,Dormant
+16,2,30,130590.02,5,5,5,15,Champion,1,High-Value
+17,2,31,227069.26,5,5,5,15,Champion,1,High-Value
+18,4,8,5862.88,2,2,2,6,At Risk,0,Dormant
+19,19,1,108.17,1,1,1,3,Lost,0,Dormant
+20,2,35,123002.71,5,5,5,15,Champion,1,High-Value
+21,2,10,35503.37,5,3,4,12,Loyal,0,Dormant
+22,3,10,24302.24,3,3,3,9,Potential,0,Dormant
+23,7,10,9384.61,2,3,3,8,Potential,0,Dormant
+24,2,24,19472.03,5,5,3,13,Champion,0,Dormant
+25,27,5,4020.0099999999998,1,2,2,5,Lost,0,Dormant
+26,3,14,25077.65,3,3,3,9,Potential,0,Dormant
+27,2,12,23495.62,5,3,3,11,Loyal,0,Dormant
+28,2,11,8436.56,5,3,3,11,Loyal,0,Dormant
+29,2,23,176133.03,5,4,5,14,Champion,1,High-Value
+30,2,32,143136.32,5,5,5,15,Champion,1,High-Value
+31,2,24,32077.68,5,5,4,14,Champion,0,Dormant
+32,5,4,2878.8199999999997,2,1,2,5,Lost,0,Dormant
+33,18,4,1897.64,1,1,2,4,Lost,0,Dormant
+34,5,6,5489.14,2,2,2,6,At Risk,0,Dormant
+35,2,22,35823.98,5,4,4,13,Champion,0,Dormant
+36,16,1,221.68,1,1,1,3,Lost,0,Dormant
+37,2,19,53053.340000000004,5,4,4,13,Champion,0,Dormant
+38,2,41,94015.82,5,5,5,15,Champion,1,High-Value
+39,51,4,1068.11,1,1,1,3,Lost,0,Dormant
+40,2,23,60776.81,5,4,4,13,Champion,0,Dormant
+41,6,3,375.43,2,1,1,4,Lost,0,Dormant
+42,2,11,30312.75,5,3,4,12,Loyal,0,Dormant
+43,41,4,927.61,1,1,1,3,Lost,0,Dormant
+44,15,4,805.3299999999999,1,1,1,3,Lost,0,Dormant
+45,20,2,487.71999999999997,1,1,1,3,Lost,0,Dormant
+46,14,4,1249.26,2,1,1,4,Lost,0,Dormant
+47,2,35,229653.81,5,5,5,15,Champion,1,High-Value
+48,2,10,10136.63,5,3,3,11,Loyal,0,Dormant
+49,2,11,9868.8,5,3,3,11,Loyal,0,Dormant
+50,2,39,205183.55,5,5,5,15,Champion,1,High-Value
+51,2,3,468.02,5,1,1,7,At Risk,0,Dormant
+52,2,22,56815.03,5,4,4,13,Champion,0,Dormant
+53,2,5,5022.21,5,2,2,9,Potential,0,Dormant
+54,2,17,44141.81,5,4,4,13,Champion,0,Dormant
+55,17,4,3102.37,1,1,2,4,Lost,0,Dormant
+56,7,6,5611.35,2,2,2,6,At Risk,0,Dormant
+57,2,35,69777.68,5,5,5,15,Champion,1,High-Value
+58,2,35,264812.32,5,5,5,15,Champion,1,High-Value
+59,22,4,1805.98,1,1,2,4,Lost,0,Dormant
+60,2,5,4339.54,5,2,2,9,Potential,0,Dormant
+61,2,23,68223.73,5,4,5,14,Champion,0,Dormant
+62,6,3,1076.6999999999998,2,1,1,4,Lost,0,Dormant
+63,43,4,6033.45,1,1,2,4,Lost,0,Dormant
+64,16,3,855.4100000000001,1,1,1,3,Lost,0,Dormant
+65,2,19,31062.02,5,4,4,13,Champion,0,Dormant
+66,2,49,185537.04,5,5,5,15,Champion,1,High-Value
+67,2,14,15866.5,5,3,3,11,Loyal,0,Dormant
+68,8,4,2658.03,2,1,2,5,Lost,0,Dormant
+69,119,2,309.75,1,1,1,3,Lost,0,Dormant
+70,3,7,4813.05,3,2,2,7,At Risk,0,Dormant
+71,2,22,53065.29,5,4,4,13,Champion,0,Dormant
+72,2,23,31903.87,5,4,4,13,Champion,0,Dormant
+73,2,24,38497.5,5,5,4,14,Champion,0,Dormant
+74,3,17,32784.39,3,4,4,11,Loyal,0,Dormant
+75,3,5,1523.74,3,2,1,6,At Risk,0,Dormant
+76,2,44,282129.93,5,5,5,15,Champion,1,High-Value
+77,2,11,21271.91,5,3,3,11,Loyal,0,Dormant
+78,21,6,4160.12,1,2,2,5,Lost,0,Dormant
+79,2,31,248401.06,5,5,5,15,Champion,1,High-Value
+80,79,1,450.56,1,1,1,3,Lost,0,Dormant
+81,2,6,2187.3,5,2,2,9,Potential,0,Dormant
+82,2,44,245958.57,5,5,5,15,Champion,1,High-Value
+83,14,11,4459.88,2,3,2,7,At Risk,0,Dormant
+84,29,5,3824.5899999999997,1,2,2,5,Lost,0,Dormant
+85,2,44,250525.1,5,5,5,15,Champion,1,High-Value
+86,2,13,30603.15,5,3,4,12,Loyal,0,Dormant
+87,2,14,18269.6,5,3,3,11,Loyal,0,Dormant
+88,13,3,981.04,2,1,1,4,Lost,0,Dormant
+89,21,7,2557.7,1,2,2,5,Lost,0,Dormant
+90,2,15,32152.78,5,3,4,12,Loyal,0,Dormant
+91,5,11,3964.0299999999997,2,3,2,7,At Risk,0,Dormant
+92,13,8,8963.18,2,2,3,7,At Risk,0,Dormant
+93,23,4,643.0,1,1,1,3,Lost,0,Dormant
+94,4,11,8164.9,2,3,3,8,Potential,0,Dormant
+95,17,6,6866.18,1,2,3,6,At Risk,0,Dormant
+96,41,3,741.12,1,1,1,3,Lost,0,Dormant
+97,2,31,112941.06,5,5,5,15,Champion,1,High-Value
+98,2,11,14259.56,5,3,3,11,Loyal,0,Dormant
+99,2,43,135781.62,5,5,5,15,Champion,1,High-Value
+100,2,4,1575.5500000000002,5,1,1,7,At Risk,0,Dormant
+101,13,6,5112.08,2,2,2,6,At Risk,0,Dormant
+102,2,24,177853.85,5,5,5,15,Champion,1,High-Value
+103,2,18,39724.21,5,4,4,13,Champion,0,Dormant
+104,2,35,248842.44,5,5,5,15,Champion,1,High-Value
+105,43,4,1283.8600000000001,1,1,1,3,Lost,0,Dormant
+106,86,1,254.72,1,1,1,3,Lost,0,Dormant
+107,2,28,47774.34,5,5,4,14,Champion,0,Dormant
+108,2,19,38244.62,5,4,4,13,Champion,0,Dormant
+109,2,47,247893.09,5,5,5,15,Champion,1,High-Value
+110,2,13,10366.72,5,3,3,11,Loyal,0,Dormant
+111,6,10,9360.31,2,3,3,8,Potential,0,Dormant
+112,3,7,2475.98,3,2,2,7,At Risk,0,Dormant
+113,2,22,55653.17,5,4,4,13,Champion,0,Dormant
+114,2,33,220380.13,5,5,5,15,Champion,1,High-Value
+115,2,20,38430.56,5,4,4,13,Champion,0,Dormant
+116,17,7,4567.85,1,2,2,5,Lost,0,Dormant
+117,22,2,178.29,1,1,1,3,Lost,0,Dormant
+118,2,4,3826.27,5,1,2,8,Potential,0,Dormant
+119,63,3,1808.17,1,1,2,4,Lost,0,Dormant
+120,2,49,290707.75,5,5,5,15,Champion,1,High-Value
+121,69,1,497.65,1,1,1,3,Lost,0,Dormant
+122,2,41,305139.23,5,5,5,15,Champion,1,High-Value
+123,4,11,16343.72,2,3,3,8,Potential,0,Dormant
+124,2,38,174883.4,5,5,5,15,Champion,1,High-Value
+125,2,21,55882.33,5,4,4,13,Champion,0,Dormant
+126,2,12,10151.89,5,3,3,11,Loyal,0,Dormant
+127,2,15,40326.73,5,3,4,12,Loyal,0,Dormant
+128,2,13,32695.6,5,3,4,12,Loyal,0,Dormant
+129,2,19,47720.04,5,4,4,13,Champion,0,Dormant
+130,2,21,121924.0,5,4,5,14,Champion,1,High-Value
+131,5,3,1525.85,2,1,1,4,Lost,0,Dormant
+132,2,16,26967.86,5,4,4,13,Champion,0,Dormant
+133,2,40,222141.35,5,5,5,15,Champion,1,High-Value
+134,5,6,6827.29,2,2,3,7,At Risk,0,Dormant
+135,2,22,47704.86,5,4,4,13,Champion,0,Dormant
+136,2,5,3508.31,5,2,2,9,Potential,0,Dormant
+137,15,4,637.3299999999999,1,1,1,3,Lost,0,Dormant
+138,2,47,150537.41,5,5,5,15,Champion,1,High-Value
+139,2,22,43608.98,5,4,4,13,Champion,0,Dormant
+140,2,49,193898.02,5,5,5,15,Champion,1,High-Value
+141,2,27,46070.98,5,5,4,14,Champion,0,Dormant
+142,2,8,10062.08,5,2,3,10,Potential,0,Dormant
+143,14,8,9372.33,2,2,3,7,At Risk,0,Dormant
+144,23,6,5574.91,1,2,2,5,Lost,0,Dormant
+145,2,36,139446.11000000002,5,5,5,15,Champion,1,High-Value
+146,2,9,6551.65,5,2,2,9,Potential,0,Dormant
+147,20,3,2827.87,1,1,2,4,Lost,0,Dormant
+148,50,1,351.62,1,1,1,3,Lost,0,Dormant
+149,2,37,247624.44,5,5,5,15,Champion,1,High-Value
+150,2,18,34308.19,5,4,4,13,Champion,0,Dormant
+151,2,21,65852.34,5,4,5,14,Champion,0,Dormant
+152,2,7,3984.89,5,2,2,9,Potential,0,Dormant
+153,2,43,69781.64,5,5,5,15,Champion,1,High-Value
+154,9,3,3390.1800000000003,2,1,2,5,Lost,0,Dormant
+155,2,37,161083.17,5,5,5,15,Champion,1,High-Value
+156,2,23,135051.46,5,4,5,14,Champion,1,High-Value
+157,2,21,48766.24,5,4,4,13,Champion,0,Dormant
+158,5,13,22705.579999999998,2,3,3,8,Potential,0,Dormant
+159,17,6,2109.4,1,2,2,5,Lost,0,Dormant
+160,2,14,28804.78,5,3,4,12,Loyal,0,Dormant
+161,2,34,164573.25,5,5,5,15,Champion,1,High-Value
+162,2,48,200693.35,5,5,5,15,Champion,1,High-Value
+163,6,6,1289.33,2,2,1,5,Lost,0,Dormant
+164,13,5,3437.42,2,2,2,6,At Risk,0,Dormant
+165,2,9,6365.44,5,2,2,9,Potential,0,Dormant
+166,2,15,16681.18,5,3,3,11,Loyal,0,Dormant
+167,2,29,81885.69,5,5,5,15,Champion,1,High-Value
+168,3,15,30269.61,3,3,4,10,Potential,0,Dormant
+169,3,3,867.76,3,1,1,5,Lost,0,Dormant
+170,3,21,42238.03,3,4,4,11,Loyal,0,Dormant
+171,2,17,16219.74,4,4,3,11,Loyal,0,Dormant
+172,2,22,56332.18,4,4,4,12,Loyal,0,Dormant
+173,2,21,15264.3,4,4,3,11,Loyal,0,Dormant
+174,2,25,159547.14,4,5,5,14,Champion,1,High-Value
+175,2,19,46639.57,4,4,4,12,Loyal,0,Dormant
+176,8,11,6569.75,2,3,2,7,At Risk,0,Dormant
+177,2,42,65802.61,4,5,4,13,Champion,1,High-Value
+178,3,3,1163.07,3,1,1,5,Lost,0,Dormant
+179,2,16,38027.57,4,4,4,12,Loyal,0,Dormant
+180,2,24,36887.24,4,5,4,13,Champion,0,Dormant
+181,2,30,242229.32,4,5,5,14,Champion,1,High-Value
+182,2,35,164831.4,4,5,5,14,Champion,1,High-Value
+183,2,16,40348.89,4,4,4,12,Loyal,0,Dormant
+184,22,3,1665.25,1,1,1,3,Lost,0,Dormant
+185,2,23,48105.55,4,4,4,12,Loyal,0,Dormant
+186,7,17,44578.33,2,4,4,10,Potential,0,Dormant
+187,2,10,7385.6900000000005,4,3,3,10,Potential,0,Dormant
+188,60,1,218.85,1,1,1,3,Lost,0,Dormant
+189,54,4,924.9699999999999,1,1,1,3,Lost,0,Dormant
+190,2,28,44783.45,4,5,4,13,Champion,0,Dormant
+191,2,22,23693.88,4,4,3,11,Loyal,0,Dormant
+192,2,15,18882.87,4,3,3,10,Potential,0,Dormant
+193,2,37,88919.86,4,5,5,14,Champion,1,High-Value
+194,32,3,1238.1,1,1,1,3,Lost,0,Dormant
+195,31,4,2179.39,1,1,2,4,Lost,0,Dormant
+196,8,3,3492.48,2,1,2,5,Lost,0,Dormant
+197,2,43,325565.08999999997,4,5,5,14,Champion,1,High-Value
+198,2,9,8621.56,4,2,3,9,Potential,0,Dormant
+199,30,3,507.13,1,1,1,3,Lost,0,Dormant
+200,2,32,87867.11,4,5,5,14,Champion,1,High-Value
+201,2,35,189487.0,4,5,5,14,Champion,1,High-Value
+202,20,4,1188.8,1,1,1,3,Lost,0,Dormant
+203,5,11,24283.06,2,3,3,8,Potential,0,Dormant
+204,2,29,48286.58,4,5,4,13,Champion,0,Dormant
+205,65,1,189.93,1,1,1,3,Lost,0,Dormant
+206,202,1,116.08,1,1,1,3,Lost,0,Dormant
+207,2,7,8741.98,4,2,3,9,Potential,0,Dormant
+208,24,3,1733.9499999999998,1,1,1,3,Lost,0,Dormant
+209,2,17,18795.23,4,4,3,11,Loyal,0,Dormant
+210,2,15,14975.23,4,3,3,10,Potential,0,Dormant
+211,2,11,16680.38,4,3,3,10,Potential,0,Dormant
+212,69,1,196.82,1,1,1,3,Lost,0,Dormant
+213,14,9,5289.650000000001,2,2,2,6,At Risk,0,Dormant
+214,2,14,23312.74,4,3,3,10,Potential,0,Dormant
+215,86,1,308.27,1,1,1,3,Lost,0,Dormant
+216,2,22,41442.59,4,4,4,12,Loyal,0,Dormant
+217,8,8,4077.15,2,2,2,6,At Risk,0,Dormant
+218,10,4,1004.74,2,1,1,4,Lost,0,Dormant
+219,2,33,198918.93,4,5,5,14,Champion,1,High-Value
+220,2,31,100362.33,4,5,5,14,Champion,1,High-Value
+221,2,24,30478.7,4,5,4,13,Champion,0,Dormant
+222,46,2,791.74,1,1,1,3,Lost,0,Dormant
+223,2,16,49587.58,4,4,4,12,Loyal,0,Dormant
+224,2,11,5730.83,4,3,2,9,Potential,0,Dormant
+225,5,8,4606.12,2,2,2,6,At Risk,0,Dormant
+226,2,36,67284.88,4,5,5,14,Champion,1,High-Value
+227,40,5,4244.36,1,2,2,5,Lost,0,Dormant
+228,2,37,273112.77,4,5,5,14,Champion,1,High-Value
+229,15,3,1546.57,1,1,1,3,Lost,0,Dormant
+230,2,20,13975.779999999999,4,4,3,11,Loyal,0,Dormant
+231,14,3,1135.47,1,1,1,3,Lost,0,Dormant
+232,10,2,302.33000000000004,2,1,1,4,Lost,0,Dormant
+233,2,48,356439.57,4,5,5,14,Champion,1,High-Value
+234,24,4,1022.7,1,1,1,3,Lost,0,Dormant
+235,202,2,292.98,1,1,1,3,Lost,0,Dormant
+236,11,11,8368.05,2,3,3,8,Potential,0,Dormant
+237,2,21,67630.95,4,4,5,13,Champion,0,Dormant
+238,2,35,212105.91999999998,4,5,5,14,Champion,1,High-Value
+239,2,19,29509.0,4,4,4,12,Loyal,0,Dormant
+240,2,23,50467.25,4,4,4,12,Loyal,0,Dormant
+241,16,3,689.7,1,1,1,3,Lost,0,Dormant
+242,14,4,864.7,1,1,1,3,Lost,0,Dormant
+243,2,28,151676.63,4,5,5,14,Champion,1,High-Value
+244,125,1,133.26,1,1,1,3,Lost,0,Dormant
+245,2,3,1327.8899999999999,4,1,1,6,At Risk,0,Dormant
+246,2,17,27937.48,4,4,4,12,Loyal,0,Dormant
+247,3,10,8059.820000000001,3,3,3,9,Potential,0,Dormant
+248,2,30,70219.5,4,5,5,14,Champion,1,High-Value
+249,2,15,19597.12,4,3,3,10,Potential,0,Dormant
+250,3,14,26007.600000000002,3,3,4,10,Potential,0,Dormant
+251,2,8,2266.47,4,2,2,8,Potential,0,Dormant
+252,4,7,4353.01,2,2,2,6,At Risk,0,Dormant
+253,2,5,3885.48,4,2,2,8,Potential,0,Dormant
+254,2,18,27811.27,4,4,4,12,Loyal,0,Dormant
+255,2,34,81212.83,4,5,5,14,Champion,1,High-Value
+256,2,4,4592.53,4,1,2,7,At Risk,0,Dormant
+257,70,3,914.48,1,1,1,3,Lost,0,Dormant
+258,9,8,2112.43,2,2,2,6,At Risk,0,Dormant
+259,4,8,5893.45,2,2,2,6,At Risk,0,Dormant
+260,4,3,1008.27,2,1,1,4,Lost,0,Dormant
+261,2,32,172783.74,4,5,5,14,Champion,1,High-Value
+262,2,7,6497.06,4,2,2,8,Potential,0,Dormant
+263,18,4,2965.6,1,1,2,4,Lost,0,Dormant
+264,2,20,41836.54,4,4,4,12,Loyal,0,Dormant
+265,16,8,6746.54,1,2,2,5,Lost,0,Dormant
+266,9,10,9898.75,2,3,3,8,Potential,0,Dormant
+267,2,40,128969.65,4,5,5,14,Champion,1,High-Value
+268,2,15,19370.239999999998,4,3,3,10,Potential,0,Dormant
+269,2,13,23274.72,4,3,3,10,Potential,0,Dormant
+270,6,9,7728.75,2,2,3,7,At Risk,0,Dormant
+271,2,10,3840.92,4,3,2,9,Potential,0,Dormant
+272,2,10,30321.3,4,3,4,11,Loyal,0,Dormant
+273,3,10,16011.0,3,3,3,9,Potential,0,Dormant
+274,2,18,49326.88,4,4,4,12,Loyal,0,Dormant
+275,2,32,135605.89,4,5,5,14,Champion,1,High-Value
+276,2,22,17082.63,4,4,3,11,Loyal,0,Dormant
+277,18,8,3327.39,1,2,2,5,Lost,0,Dormant
+278,2,21,44830.95,4,4,4,12,Loyal,0,Dormant
+279,2,4,4545.15,4,1,2,7,At Risk,0,Dormant
+280,2,48,259345.78,4,5,5,14,Champion,1,High-Value
+281,20,8,1744.73,1,2,1,4,Lost,0,Dormant
+282,2,12,7175.61,4,3,3,10,Potential,0,Dormant
+283,3,10,8769.43,3,3,3,9,Potential,0,Dormant
+284,2,15,29739.05,4,3,4,11,Loyal,0,Dormant
+285,18,3,1478.66,1,1,1,3,Lost,0,Dormant
+286,2,19,43553.5,4,4,4,12,Loyal,0,Dormant
+287,24,4,2954.29,1,2,2,5,Lost,0,Dormant
+288,4,10,3810.4500000000003,2,3,2,7,At Risk,0,Dormant
+289,2,26,187529.99,4,5,5,14,Champion,1,High-Value
+290,24,4,665.78,1,2,1,4,Lost,0,Dormant
+291,2,41,285158.2,4,5,5,14,Champion,1,High-Value
+292,2,6,8156.93,4,2,3,9,Potential,0,Dormant
+293,5,10,22489.2,2,3,3,8,Potential,0,Dormant
+294,2,20,16817.8,4,4,3,11,Loyal,0,Dormant
+295,16,11,11331.67,1,3,3,7,At Risk,0,Dormant
+296,2,36,218547.73,4,5,5,14,Champion,1,High-Value
+297,2,18,23352.68,4,4,3,11,Loyal,0,Dormant
+298,2,16,10674.15,4,4,3,11,Loyal,0,Dormant
+299,2,4,1849.09,4,2,2,8,Potential,0,Dormant
+300,2,37,247342.14,4,5,5,14,Champion,1,High-Value
+301,2,18,32350.25,4,4,4,12,Loyal,0,Dormant
+302,2,15,16537.79,4,3,3,10,Potential,0,Dormant
+303,3,8,8128.96,3,2,3,8,Potential,0,Dormant
+304,2,20,101746.45,4,4,5,13,Champion,0,Dormant
+305,10,11,2771.38,2,3,2,7,At Risk,0,Dormant
+306,2,20,114707.98,4,4,5,13,Champion,1,High-Value
+307,60,3,1326.23,1,1,1,3,Lost,0,Dormant
+308,38,4,1615.0900000000001,1,2,1,4,Lost,0,Dormant
+309,2,15,13553.3,4,3,3,10,Potential,0,Dormant
+310,16,11,2695.11,1,3,2,6,At Risk,0,Dormant
+311,2,40,217219.14,4,5,5,14,Champion,1,High-Value
+312,2,23,26806.77,4,4,4,12,Loyal,0,Dormant
+313,4,17,29116.620000000003,2,4,4,10,Potential,0,Dormant
+314,2,32,209337.15,4,5,5,14,Champion,1,High-Value
+315,2,15,35333.61,4,3,4,11,Loyal,0,Dormant
+316,2,42,299723.98,4,5,5,14,Champion,1,High-Value
+317,21,4,4388.39,1,2,2,5,Lost,0,Dormant
+318,7,7,4651.53,2,2,2,6,At Risk,0,Dormant
+319,72,3,1584.83,1,1,1,3,Lost,0,Dormant
+320,2,11,6140.18,4,3,2,9,Potential,0,Dormant
+321,2,14,19196.73,4,3,3,10,Potential,0,Dormant
+322,3,11,13259.67,3,3,3,9,Potential,0,Dormant
+323,2,37,139414.75,4,5,5,14,Champion,1,High-Value
+324,2,49,199580.09,4,5,5,14,Champion,1,High-Value
+325,2,35,265463.81,4,5,5,14,Champion,1,High-Value
+326,9,9,2476.19,2,2,2,6,At Risk,0,Dormant
+327,14,3,973.4499999999999,1,1,1,3,Lost,0,Dormant
+328,2,33,166561.92,4,5,5,14,Champion,1,High-Value
+329,2,23,26474.98,4,4,4,12,Loyal,0,Dormant
+330,2,13,40118.85,4,3,4,11,Loyal,0,Dormant
+331,31,2,1030.32,1,1,1,3,Lost,0,Dormant
+332,2,38,77326.77,4,5,5,14,Champion,1,High-Value
+333,4,10,9998.31,2,3,3,8,Potential,0,Dormant
+334,7,4,3631.69,2,2,2,6,At Risk,0,Dormant
+335,2,17,22795.52,4,4,3,11,Loyal,0,Dormant
+336,3,19,34756.17,3,4,4,11,Loyal,0,Dormant
+337,90,2,522.97,1,1,1,3,Lost,0,Dormant
+338,11,3,1217.56,2,1,1,4,Lost,0,Dormant
+339,27,3,479.01,1,1,1,3,Lost,0,Dormant
+340,2,12,31148.510000000002,4,3,4,11,Loyal,0,Dormant
+341,6,2,785.58,2,1,1,4,Lost,0,Dormant
+342,2,20,141727.86,4,4,5,13,Champion,1,High-Value
+343,2,45,153504.0,4,5,5,14,Champion,1,High-Value
+344,9,9,7806.97,2,2,3,7,At Risk,0,Dormant
+345,14,6,7544.74,1,2,3,6,At Risk,0,Dormant
+346,22,4,1508.78,1,2,1,4,Lost,0,Dormant
+347,6,6,1510.99,2,2,1,5,Lost,0,Dormant
+348,2,40,196314.93,3,5,5,13,Champion,1,High-Value
+349,47,3,1142.19,1,1,1,3,Lost,0,Dormant
+350,12,4,3091.55,2,2,2,6,At Risk,0,Dormant
+351,190,1,530.13,1,1,1,3,Lost,0,Dormant
+352,2,22,13735.779999999999,3,4,3,10,Potential,0,Dormant
+353,6,2,842.21,2,1,1,4,Lost,0,Dormant
+354,2,23,16656.84,3,4,3,10,Potential,0,Dormant
+355,2,11,4259.13,3,3,2,8,Potential,0,Dormant
+356,8,6,5255.96,2,2,2,6,At Risk,0,Dormant
+357,2,42,165252.46,3,5,5,13,Champion,1,High-Value
+358,6,10,28557.18,2,3,4,9,Potential,0,Dormant
+359,57,3,576.23,1,1,1,3,Lost,0,Dormant
+360,2,14,21720.32,3,3,3,9,Potential,0,Dormant
+361,2,37,189429.31,3,5,5,13,Champion,1,High-Value
+362,2,22,33710.4,3,4,4,11,Loyal,0,Dormant
+363,6,1,486.89,2,1,1,4,Lost,0,Dormant
+364,26,7,2930.58,1,2,2,5,Lost,0,Dormant
+365,5,16,24613.34,2,4,3,9,Potential,0,Dormant
+366,2,13,33964.02,3,3,4,10,Potential,0,Dormant
+367,58,2,516.74,1,1,1,3,Lost,0,Dormant
+368,2,30,247006.37,3,5,5,13,Champion,1,High-Value
+369,2,16,35639.66,3,4,4,11,Loyal,0,Dormant
+370,494,1,137.71,1,1,1,3,Lost,0,Dormant
+371,2,42,143104.81,3,5,5,13,Champion,1,High-Value
+372,8,9,7813.8,2,3,3,8,Potential,0,Dormant
+373,5,5,4490.48,2,2,2,6,At Risk,0,Dormant
+374,23,3,1028.8,1,1,1,3,Lost,0,Dormant
+375,2,13,33687.63,3,3,4,10,Potential,0,Dormant
+376,10,4,1345.43,2,2,1,5,Lost,0,Dormant
+377,2,46,134660.52,3,5,5,13,Champion,1,High-Value
+378,17,5,5456.34,1,2,2,5,Lost,0,Dormant
+379,2,4,990.11,3,2,1,6,At Risk,0,Dormant
+380,13,10,8122.18,2,3,3,8,Potential,0,Dormant
+381,2,19,30765.37,3,4,4,11,Loyal,0,Dormant
+382,4,8,8090.1900000000005,2,2,3,7,At Risk,0,Dormant
+383,3,22,40026.72,3,4,4,11,Loyal,0,Dormant
+384,3,4,1149.94,3,2,1,6,At Risk,0,Dormant
+385,2,24,68473.54000000001,3,5,5,13,Champion,0,Dormant
+386,9,6,2977.6,2,2,2,6,At Risk,0,Dormant
+387,2,18,43179.2,3,4,4,11,Loyal,0,Dormant
+388,7,6,6142.91,2,2,2,6,At Risk,0,Dormant
+389,2,49,267263.05,3,5,5,13,Champion,1,High-Value
+390,5,6,3506.95,2,2,2,6,At Risk,0,Dormant
+391,9,3,3445.81,2,1,2,5,Lost,0,Dormant
+392,2,16,44449.94,3,4,4,11,Loyal,0,Dormant
+393,2,11,12564.789999999999,3,3,3,9,Potential,0,Dormant
+394,32,6,7516.38,1,2,3,6,At Risk,0,Dormant
+395,2,11,29642.98,3,3,4,10,Potential,0,Dormant
+396,7,7,5565.18,2,2,2,6,At Risk,0,Dormant
+397,84,3,407.4,1,1,1,3,Lost,0,Dormant
+398,3,9,6414.64,3,3,2,8,Potential,0,Dormant
+399,2,49,120272.99,3,5,5,13,Champion,1,High-Value
+400,2,15,24963.99,3,3,3,9,Potential,0,Dormant
+401,2,19,42542.38,3,4,4,11,Loyal,0,Dormant
+402,2,24,105768.77,3,5,5,13,Champion,1,High-Value
+403,2,11,38197.35,3,3,4,10,Potential,0,Dormant
+404,2,44,164219.65,3,5,5,13,Champion,1,High-Value
+405,2,19,50825.32,3,4,4,11,Loyal,0,Dormant
+406,10,10,9630.43,2,3,3,8,Potential,0,Dormant
+407,2,20,43253.56,3,4,4,11,Loyal,0,Dormant
+408,9,10,6009.63,2,3,2,7,At Risk,0,Dormant
+409,6,10,6549.82,2,3,2,7,At Risk,0,Dormant
+410,21,6,4760.7,1,2,2,5,Lost,0,Dormant
+411,2,20,39232.3,3,4,4,11,Loyal,0,Dormant
+412,9,4,1130.74,2,2,1,5,Lost,0,Dormant
+413,70,3,1353.05,1,1,1,3,Lost,0,Dormant
+414,2,18,25399.86,3,4,3,10,Potential,0,Dormant
+415,2,8,10108.27,3,2,3,8,Potential,0,Dormant
+416,2,23,163989.39,3,4,5,12,Loyal,1,High-Value
+417,2,22,20856.21,3,4,3,10,Potential,0,Dormant
+418,8,3,811.47,2,1,1,4,Lost,0,Dormant
+419,10,2,751.92,2,1,1,4,Lost,0,Dormant
+420,35,3,1499.25,1,1,1,3,Lost,0,Dormant
+421,2,24,23047.74,3,5,3,11,Loyal,0,Dormant
+422,2,20,45639.69,3,4,4,11,Loyal,0,Dormant
+423,2,8,3036.17,3,2,2,7,At Risk,0,Dormant
+424,21,3,476.18,1,1,1,3,Lost,0,Dormant
+425,2,21,79982.26,3,4,5,12,Loyal,0,Dormant
+426,2,14,34644.33,3,3,4,10,Potential,0,Dormant
+427,2,24,132309.95,3,5,5,13,Champion,1,High-Value
+428,2,10,19271.09,3,3,3,9,Potential,0,Dormant
+429,2,11,8234.130000000001,3,3,3,9,Potential,0,Dormant
+430,4,9,9922.630000000001,2,3,3,8,Potential,0,Dormant
+431,2,23,33918.05,3,4,4,11,Loyal,0,Dormant
+432,9,5,1774.47,2,2,2,6,At Risk,0,Dormant
+433,5,1,152.34,2,1,1,4,Lost,0,Dormant
+434,7,4,963.3100000000001,2,2,1,5,Lost,0,Dormant
+435,2,12,10726.64,3,3,3,9,Potential,0,Dormant
+436,2,16,40360.55,3,4,4,11,Loyal,0,Dormant
+437,16,11,9781.710000000001,1,3,3,7,At Risk,0,Dormant
+438,2,20,110706.23,3,4,5,12,Loyal,1,High-Value
+439,13,5,1503.38,2,2,1,5,Lost,0,Dormant
+440,2,37,199061.34,3,5,5,13,Champion,1,High-Value
+441,2,32,204206.29,3,5,5,13,Champion,1,High-Value
+442,2,21,24495.89,3,4,3,10,Potential,0,Dormant
+443,3,15,33720.41,3,3,4,10,Potential,0,Dormant
+444,3,18,36145.5,3,4,4,11,Loyal,0,Dormant
+445,2,19,45285.96,3,4,4,11,Loyal,0,Dormant
+446,13,6,6735.3,2,2,2,6,At Risk,0,Dormant
+447,11,3,2364.91,2,1,2,5,Lost,0,Dormant
+448,237,2,668.7,1,1,1,3,Lost,0,Dormant
+449,2,39,94696.75,3,5,5,13,Champion,1,High-Value
+450,2,21,15838.09,3,4,3,10,Potential,0,Dormant
+451,4,7,6876.34,2,2,3,7,At Risk,0,Dormant
+452,2,10,27930.5,3,3,4,10,Potential,0,Dormant
+453,14,7,6097.98,1,2,2,5,Lost,0,Dormant
+454,18,5,1102.79,1,2,1,4,Lost,0,Dormant
+455,2,38,199385.7,3,5,5,13,Champion,1,High-Value
+456,2,21,12656.33,3,4,3,10,Potential,0,Dormant
+457,2,10,2502.3599999999997,3,3,2,8,Potential,0,Dormant
+458,3,12,27074.14,3,3,4,10,Potential,0,Dormant
+459,5,4,2815.13,2,2,2,6,At Risk,0,Dormant
+460,3,11,10862.14,3,3,3,9,Potential,0,Dormant
+461,11,4,487.38,2,2,1,5,Lost,0,Dormant
+462,6,3,4068.29,2,1,2,5,Lost,0,Dormant
+463,39,4,1403.6599999999999,1,2,1,4,Lost,0,Dormant
+464,12,7,3450.91,2,2,2,6,At Risk,0,Dormant
+465,3,10,24102.79,2,3,3,8,Potential,0,Dormant
+466,23,4,1836.78,1,2,2,5,Lost,0,Dormant
+467,2,32,208729.14,3,5,5,13,Champion,1,High-Value
+468,47,4,1718.62,1,2,1,4,Lost,0,Dormant
+469,2,17,14148.17,3,4,3,10,Potential,0,Dormant
+470,2,21,38547.38,3,4,4,11,Loyal,0,Dormant
+471,2,20,82678.76,3,4,5,12,Loyal,0,Dormant
+472,8,4,1365.72,2,2,1,5,Lost,0,Dormant
+473,2,9,4382.47,3,3,2,8,Potential,0,Dormant
+474,6,4,1145.59,2,2,1,5,Lost,0,Dormant
+475,2,12,8761.3,3,3,3,9,Potential,0,Dormant
+476,3,23,63715.33,2,4,4,10,Potential,0,Dormant
+477,2,16,23990.65,3,4,3,10,Potential,0,Dormant
+478,10,4,450.65,2,2,1,5,Lost,0,Dormant
+479,3,16,12861.75,2,4,3,9,Potential,0,Dormant
+480,6,4,2544.6099999999997,2,2,2,6,At Risk,0,Dormant
+481,49,4,1306.09,1,2,1,4,Lost,0,Dormant
+482,15,3,1992.67,1,1,2,4,Lost,0,Dormant
+483,23,4,2243.8900000000003,1,2,2,5,Lost,0,Dormant
+484,16,8,4586.91,1,2,2,5,Lost,0,Dormant
+485,103,1,84.79,1,1,1,3,Lost,0,Dormant
+486,7,7,4970.47,2,2,2,6,At Risk,0,Dormant
+487,2,16,22966.19,3,4,3,10,Potential,0,Dormant
+488,2,1,591.17,3,1,1,5,Lost,0,Dormant
+489,2,21,39038.22,3,4,4,11,Loyal,0,Dormant
+490,2,18,37874.5,3,4,4,11,Loyal,0,Dormant
+491,3,9,1867.03,2,3,2,7,At Risk,0,Dormant
+492,2,35,220263.43,3,5,5,13,Champion,1,High-Value
+493,2,14,33712.1,3,3,4,10,Potential,0,Dormant
+494,2,19,23796.89,3,4,3,10,Potential,0,Dormant
+495,2,10,5809.42,3,3,2,8,Potential,0,Dormant
+496,2,26,64867.94,3,5,4,12,Loyal,0,Dormant
+497,7,11,13385.18,2,3,3,8,Potential,0,Dormant
+498,2,47,336990.82,3,5,5,13,Champion,1,High-Value
+499,136,2,398.40999999999997,1,1,1,3,Lost,0,Dormant
+500,2,12,18746.27,3,3,3,9,Potential,0,Dormant
